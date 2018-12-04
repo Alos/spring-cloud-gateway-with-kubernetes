@@ -70,7 +70,7 @@
                 <artifactId>dockerfile-maven-plugin</artifactId>
                 <version>1.4.9</version>
                 <configuration>
-                    <repository>gcr.io/sfelix-louhi/${project.artifactId}</repository>
+                    <repository>gcr.io/<your-gcp-project>/${project.artifactId}</repository>
                     <buildArgs>
                         <JAR_FILE>target/${project.build.finalName}.jar</JAR_FILE>
                     </buildArgs>
