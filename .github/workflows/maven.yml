@@ -19,5 +19,4 @@ jobs:
       with:
         java-version: 11
     - name: Build with Maven
-      run: mvn -B test -f /dog-service/pom.xml
-    - uses: actions/checkout@v2
+      run: mvn -B test -f spring-cloud-gateway-with-kubernetes/dog-service/pom.xml
