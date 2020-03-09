@@ -19,6 +19,4 @@ jobs:
       with:
         java-version: 11
     - name: Test with Maven
-      with:
-        path: spring-cloud-gateway-with-kubernetes/spring-cloud-gateway-with-kubernetes/dog-service
-      run: mvn -B test
+      run: mvn -B test -f spring-cloud-gateway-with-kubernetes/spring-cloud-gateway-with-kubernetes/dog-service/pom.xml
