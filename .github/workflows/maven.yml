@@ -23,5 +23,5 @@ jobs:
       with:
         java-version: 11
     - name: Test with Maven
-      run: mvn -B test -f dog-service/pom.xml
+      run: mvn -B test -f ./dog-service/pom.xml
       
